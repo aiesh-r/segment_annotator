@@ -329,16 +329,6 @@ _via_control_panel.prototype._add_project_tools = function () {
 		}.bind(this)
 	);
 	this.c.appendChild(save);
-
-	// var import_export_annotation = _via_util_get_svg_button(
-	// 	"micon_import_export",
-	// 	"Import or Export Annotations"
-	// );
-	// import_export_annotation.addEventListener(
-	// 	"click",
-	// 	this._page_show_import_export.bind(this)
-	// );
-	// this.c.appendChild(import_export_annotation);
 };
 
 _via_control_panel.prototype._page_show_import_export = function (d) {
